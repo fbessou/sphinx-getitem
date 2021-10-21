@@ -18,10 +18,10 @@ class ClassMethod:
 class DemoClass:
     """A special then class"""
 
-#    @ClassMethod
-#    def pycls_method(cls):
-#        """Using only classmethod"""
-#        print("Hello world")
+    @ClassMethod
+    def pycls_method(cls):
+        """Using only classmethod"""
+        print("Hello world")
 
     @classmethod
     def builtincls_method(cls):
